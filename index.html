@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fonts -->
+
+    <!-- bootstrap css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- icons -->
+    <link rel="stylesheet" href="css/fontello.css">
+    <!-- styles -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Bootstrap Lesson</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="text-center text-white">Video-course</h1>
+                    <div class="itd_play" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <div class="itd_triangle"></div>
+                    </div>
+                    <a href="#footer" class="btn btn-itd btn-lg text-uppercase">Order</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center text-uppercase color1 mb-5">About Course</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-md-6 col-sm-12">
+                    <div class="itd_circle"><i class="icon-list-numbered"></i></div>
+                    <h5 class="text-center">Structure Material</h5>
+                    <div class="line"></div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-12">
+                    <div class="itd_circle"><i class="icon-rouble"></i></div>
+                    <h5 class="text-center">Price</h5>
+                    <div class="line"></div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-12">
+                    <div class="itd_circle"><i class="icon-chart-bar"></i></div>
+                    <h5 class="text-center">Relevance</h5>
+                    <div class="line"></div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-12">
+                    <div class="itd_circle"><i class="icon-code"></i></div>
+                    <h5 class="text-center">Practical lessons</h5>
+                    <div class="line"></div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-12">
+                    <div class="itd_circle"><i class="icon-file-video"></i></div>
+                    <h5 class="text-center">34 video in course</h5>
+                    <div class="line"></div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-12">
+                    <div class="itd_circle"><i class="icon-mobile"></i></div>
+                    <h5 class="text-center">Phone version</h5>
+                    <div class="line"></div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-12">
+                    <div class="itd_circle"><i class="icon-help"></i></div>
+                    <h5 class="text-center">Additional userful materials</h5>
+                    <div class="line"></div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-12">
+                    <div class="itd_circle"><i class="icon-thumbs-up"></i></div>
+                    <h5 class="text-center">No AD</h5>
+                    <div class="line"></div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-12">
+                    <div class="itd_circle"><i class="icon-group"></i></div>
+                    <h5 class="text-center">Course on Telegram and Udemy</h5>
+                    <div class="line"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="forwho">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center text-uppercase color2 mb-5">Course for who</h2>
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-md-6 col-sm-12">
+                    <h5 class="text-center">
+                        Want to do websites by their own hands
+                    </h5>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <h5 class="text-center">
+                        Want to do websites by their own hands
+                    </h5>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <h5 class="text-center">
+                        Want to do websites by their own hands
+                    </h5>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <h5 class="text-center">
+                        Want to do websites by their own hands
+                    </h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <a href="#footer" class="btn btn-lg text-uppercase btn-itd">Order</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="schedule">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center text-uppercase color1 mb-3">Course Programm</h2>
+                </div>
+            </div>
+            <div class="row">
+
+                <!-- first accordion -->
+                <div class="col-md-4 col-sm-12">
+                    <h4 class="text-center fw-bold mb-3 mt-3">Module 1<br>(HTML)</h4>
+
+                    <!-- если сменить у дива айди accordionFlushExample на что то иное
+                    то необходимо поменять и у дочерних в моем случае heading2 -->
+                    <!-- убрать класс collapsed кнопки и добавить div класс show -->
+                    <!-- flush-collapseOne меняется в 3х местах -->
+                    <!-- добавить класс show и элемент будет постоянно открыт -->
+
+                    <div class="accordion accordion-flush" id="heading2">
+                        <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                Accordion Item #1
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#heading2">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                        </div>
+                        </div>
+
+                        <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Accordion Item #2
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#heading2">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                        </div>
+                        </div>
+
+                        <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                Accordion Item #3
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#heading2">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- second accordion -->
+                <div class="col-md-4 col-sm-12">
+                    <h4 class="text-center fw-bold mb-3 mt-3">Module 2<br>(CSS)</h4>
+
+                    <!-- если сменить у дива айди accordionFlushExample на что то иное
+                    то необходимо поменять и у дочерних -->
+                    <div class="accordion accordion-flush" id="accordionFlush2">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <!-- убрать класс collapsed кнопки и добавить div класс show -->
+                                <!-- flush-collapseOne меняется в 3х местах -->
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse8" aria-expanded="false" aria-controls="flush-collapse8">
+                                    Accordion Item #1
+                                </button>
+                            </h2>
+                            <!-- добавить класс show и элемент будет постоянно открыт -->
+                            <div id="flush-collapse8" class="accordion-collapse collapse" data-bs-parent="#accordionFlush2">
+                                <div class="accordion-body fst-italic">
+                                    Lorem ipsum dolor sit amet.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse9" aria-expanded="false" aria-controls="flush-collapse9">
+                                    Accordion Item #2
+                                </button>
+                            </h2>
+                            <div id="flush-collapse9" class="accordion-collapse collapse" data-bs-parent="#accordionFlush2">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus doloremque maxime temporibus cum porro sed error, quasi facere consequatur? Cupiditate.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse10" aria-expanded="false" aria-controls="flush-collapse10">
+                                    Accordion Item #3
+                                </button>
+                            </h2>
+                            <div id="flush-collapse10" class="accordion-collapse collapse" data-bs-parent="#accordionFlush2">
+                                <div class="accordion-body">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni explicabo quasi corrupti sint dolorem temporibus nobis quod qui vel voluptas incidunt alias, nemo architecto, possimus numquam accusantium voluptate autem culpa? Unde placeat quae optio repudiandae, mollitia officia sit inventore corrupti nihil dolorem facilis aliquid eaque minima molestiae accusamus sed harum?
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse11" aria-expanded="false" aria-controls="flush-collapse11">
+                                    Accordion Item #4
+                                </button>
+                            </h2>
+                            <div id="flush-collapse11" class="accordion-collapse collapse" data-bs-parent="#accordionFlush2">
+                                <div class="accordion-body">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni explicabo quasi corrupti sint dolorem temporibus nobis quod qui vel voluptas incidunt alias, nemo architecto, possimus numquam accusantium voluptate autem culpa? Unde placeat quae optio repudiandae, mollitia officia sit inventore corrupti nihil dolorem facilis aliquid eaque minima molestiae accusamus sed harum?
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse12" aria-expanded="false" aria-controls="flush-collapse12">
+                                    Accordion Item #5
+                                </button>
+                            </h2>
+                            <div id="flush-collapse12" class="accordion-collapse collapse" data-bs-parent="#accordionFlush2">
+                                <div class="accordion-body">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni explicabo quasi corrupti sint dolorem temporibus nobis quod qui vel voluptas incidunt alias, nemo architecto, possimus numquam accusantium voluptate autem culpa? Unde placeat quae optio repudiandae, mollitia officia sit inventore corrupti nihil dolorem facilis aliquid eaque minima molestiae accusamus sed harum?
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- third accordion -->
+                <div class="col-md-4 col-sm-12">
+                    <h4 class="text-center fw-bold mb-3 mt-3">Module 2<br>(CSS)</h4>
+                    <div class="accordion accordion-flush" id="accordionFlush3">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse13" aria-expanded="false" aria-controls="flush-collapse13">
+                                    Accordion Item #1
+                                </button>
+                            </h2>
+                            <div id="flush-collapse13" class="accordion-collapse collapse" data-bs-parent="#accordionFlush3">
+                                <div class="accordion-body fst-italic">
+                                    Lorem ipsum dolor sit amet.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse14" aria-expanded="false" aria-controls="flush-collapse14">
+                                    Accordion Item #2
+                                </button>
+                            </h2>
+                            <div id="flush-collapse14" class="accordion-collapse collapse" data-bs-parent="#accordionFlush3">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus doloremque maxime temporibus cum porro sed error, quasi facere consequatur? Cupiditate.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse15" aria-expanded="false" aria-controls="flush-collapse15">
+                                    Accordion Item #3
+                                </button>
+                            </h2>
+                            <div id="flush-collapse15" class="accordion-collapse collapse" data-bs-parent="#accordionFlush3">
+                                <div class="accordion-body">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni explicabo quasi corrupti sint dolorem temporibus nobis quod qui vel voluptas incidunt alias, nemo architecto, possimus numquam accusantium voluptate autem culpa? Unde placeat quae optio repudiandae, mollitia officia sit inventore corrupti nihil dolorem facilis aliquid eaque minima molestiae accusamus sed harum?
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse16" aria-expanded="false" aria-controls="flush-collapse16">
+                                    Accordion Item #4
+                                </button>
+                            </h2>
+                            <div id="flush-collapse16" class="accordion-collapse collapse" data-bs-parent="#accordionFlush3">
+                                <div class="accordion-body">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni explicabo quasi corrupti sint dolorem temporibus nobis quod qui vel voluptas incidunt alias, nemo architecto, possimus numquam accusantium voluptate autem culpa? Unde placeat quae optio repudiandae, mollitia officia sit inventore corrupti nihil dolorem facilis aliquid eaque minima molestiae accusamus sed harum?
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="learning">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center text-uppercase color2 mb-5">
+                        Study Procces
+                    </h2>
+                </div>
+            </div>
+            <div class="row align-items-center mb-5">
+                <div class="col-lg-9 col-sm-12">
+                    <h5>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto nostrum, quibusdam sed natus eveniet cupiditate provident mollitia unde accusamus aperiam!
+                    </h5>
+                    <h5>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, <a href="/" target="_blank">aspernatur</a>!
+                    </h5>
+                    <h5>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit qui ab nihil illo soluta autem atque laborum quibusdam quisquam eum aliquam omnis fugit consectetur, et fugiat quam corporis. Laboriosam, expedita.
+                    </h5>
+                    <h5>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quam voluptas vitae id animi. Velit!
+                    </h5>
+                    <h5>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. A enim consequuntur ratione consequatur eum quibusdam, temporibus eveniet aliquid corporis.
+                    </h5>
+                </div>
+                <div class="col-lg-3 col-sm-12 mb-sm-5 mt-sm-5 text-center">
+                    <img src="img/mockup.png" alt="" class="img-fluid">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <a href="#footer" class="btn btn-lg text-uppercase btn-itd">Order</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="author">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center text-uppercase color2 mb-5">
+                        About Author
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-9 col-lg-12">
+                    <h4>My Name</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, eaque.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut dolorum, molestiae vero iure eaque, distinctio necessitatibus voluptatem ea impedit praesentium fugiat, nostrum sunt odio totam neque placeat nesciunt reiciendis tempore.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, mollitia! Amet perferendis corporis ex tempore laudantium aut, necessitatibus exercitationem, est repellat consequatur ullam, eos excepturi accusamus. Inventore magni distinctio deleniti nobis quidem temporibus dolore quas iste dolorum dolores doloribus recusandae iure voluptates labore, itaque laboriosam mollitia? Maiores voluptas fugiat consectetur.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quibusdam, ipsa commodi praesentium corporis quaerat?</p>
+                </div>
+                <div class="col-xl-3 col-lg-12 text-center">
+                    <img src="img/author.png" alt="" class="img-fluid itd_img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center text-uppercase color2 mb-5">Reviews</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <img src="img/people.jpg" class="rounded mx-auto d-block" alt="">
+                    <h4 class="text-center mb-3 mt-3">Kristina</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus libero voluptatum repudiandae atque impedit obcaecati, tempore quam cupiditate blanditiis placeat iusto perspiciatis? Rem animi consequuntur sapiente officia beatae ratione praesentium quibusdam, fuga cupiditate exercitationem ea enim itaque aspernatur nisi recusandae expedita, deserunt nobis! Fugit in recusandae provident et molestiae consequuntur.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, illum beatae voluptates veniam tenetur itaque reprehenderit quisquam error ipsum unde eveniet earum corrupti architecto et. Consequuntur necessitatibus in accusamus et!
+                    </p>
+                    <div class="line bg2"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="buy">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center text-uppercase color1 mb-5">Order</h2>
+                </div>
+            </div>
+            <div class="row align-items-center justify-content-center">
+                <div class="col-lg-5 col-sm-12">
+                    <img src="img/preview.png" class="img-fluid mx-auto d-block" alt="">
+                    <!-- форма оплаты с сайта youmoney -->
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum accusamus in aliquid odio illo nihil obcaecati cupiditate placeat autem! Aliquam neque quis quidem voluptatum ab a voluptas aut possimus quo minus. Ut natus provident voluptate quibusdam repellat praesentium modi ipsam numquam magnam? Iste atque, debitis ut aliquid autem reprehenderit! Iste impedit, amet autem rem eius dolores voluptatibus in assumenda cum.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <a href="/" target="_blank" class="btn btn-outline-light">
+                        <i class="icon-youtube-play"></i>
+                    </a>
+                    <a href="/" target="_blank" class="btn btn-outline-light">
+                        <i class="icon-mail-alt"></i>
+                    </a>
+                    <a href="/" target="_blank" class="btn btn-outline-light">
+                        <i class="icon-paper-plane"></i>
+                    </a>
+                    <a href="/" target="_blank" class="btn btn-outline-light">
+                        <i class="icon-vkontakte"></i>
+                    </a>
+                    <a href="/" target="_blank" class="btn btn-outline-light">
+                        <i class="icon-instagram"></i>
+                    </a>
+                    <a href="/" target="_blank" class="btn btn-outline-light">
+                        <i class="icon-facebook"></i>
+                    </a>
+                    <a href="/" target="_blank" class="btn btn-outline-light">
+                        <i class="icon-twitter"></i>
+                    </a>
+                    <a href="/" target="_blank" class="btn btn-outline-light">
+                        <i class="icon-github-circled"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Video Course Trailer</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class='embed-container'>
+                    <iframe src='https://www.youtube.com/embed//MbOcveDTHZQ' frameborder='0' allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- bootstrap JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
